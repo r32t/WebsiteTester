@@ -3,40 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Sarah Chen - Architect</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website!</h1>
         <nav>
+            <div class="logo">
+                <h1>Sarah Chen</h1>
+                <p>Architecture</p>
+            </div>
             <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi! I'm learning to code and this is my first website built with GitHub Pages.</p>
-        </section>
+    <section class="hero">
+        <h2>Creating spaces that inspire</h2>
+        <p>Contemporary architectural design focused on sustainable and innovative solutions</p>
+    </section>
 
-        <section id="projects">
-            <h2>My Projects</h2>
-            <p>This is where I'll showcase my coding projects as I learn more!</p>
-        </section>
+    <section id="portfolio" class="portfolio">
+        <h3>Featured Projects</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop" alt="Modern Residential Complex">
+                <div class="project-info">
+                    <h4>Modern Residential Complex</h4>
+                    <p>Contemporary living spaces</p>
+                    <a href="project1.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop" alt="Cultural Center">
+                <div class="project-info">
+                    <h4>Cultural Center</h4>
+                    <p>Community gathering space</p>
+                    <a href="project2.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop" alt="Sustainable Office Building">
+                <div class="project-info">
+                    <h4>Sustainable Office Building</h4>
+                    <p>Green architecture design</p>
+                    <a href="project3.html" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me through GitHub: <a href="https://github.com/r32t">r32t</a></p>
-        </section>
-    </main>
+    <section id="about" class="about">
+        <h3>About</h3>
+        <p>With over 10 years of experience in contemporary architecture, I specialize in creating innovative spaces that blend functionality with aesthetic excellence. My approach emphasizes sustainable design principles and community-centered solutions.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h3>Contact</h3>
+        <p>Ready to discuss your next project?</p>
+        <p>Email: sarah.chen@architecture.com</p>
+        <p>Phone: (555) 123-4567</p>
+    </section>
 
     <footer>
-        <p>&copy; 2025 My First Website</p>
+        <p>&copy; 2025 Sarah Chen Architecture</p>
     </footer>
 </body>
 </html>
